@@ -4,7 +4,7 @@ start=`date +%s`
 packer build -only=virtualbox-iso \
 	-var-file=ubuntu1604.json \
 	-var 'update=true' \
-	-var 'iso_path=$HOME/Downloads/vm_source/' \
+	-var "iso_path=$HOME/Downloads/vm_source/" \
 	ubuntu.json
 
 end=`date +%s`

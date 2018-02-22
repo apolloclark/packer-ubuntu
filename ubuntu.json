@@ -224,7 +224,7 @@
       },
       {
         "type": "vagrant-cloud",
-        "box_tag": "apolloclark/ubuntu16.04",
+        "box_tag": "{{user `atlas_box_tag`}}",
         "access_token": "{{user `atlas_token`}}",
         "no_release": "true",
         "version": "{{user `version`}}"

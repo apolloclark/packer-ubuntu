@@ -9,5 +9,6 @@
   "iso_url": "http://releases.ubuntu.com/17.04/ubuntu-17.04-server-amd64.iso",
   "memory": "512",
   "preseed" : "preseed.cfg",
-  "boot_command_prefix": "<esc><esc><enter><wait>"
+  "boot_command_prefix": "<esc><esc><enter><wait>",
+  "atlas_box_tag": "apolloclark/ubuntu17.04"
 }

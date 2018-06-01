@@ -9,7 +9,6 @@ tmp
 .project
 Makefile.local
 .tmpatlas/
-iso/
 
 .DS_Store
 .bundle/

@@ -7,7 +7,7 @@ rm -rf ./output-*-virtualbox-iso
 packer build -only=virtualbox-iso \
 	-var-file=ubuntu1604.json \
 	-var 'update=true' \
-	-var "iso_path=$HOME/Downloads/vm_source/" \
+	-var "iso_path=./iso" \
 	ubuntu.json
 
 end=`date +%s`

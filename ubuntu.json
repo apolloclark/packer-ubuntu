@@ -33,7 +33,8 @@
     "virtualbox_guest_os_type": "Ubuntu_64",
     "vm_name": "ubuntu1404",
     "vmware_guest_os_type": "ubuntu-64",
-    "version": "{{isotime \"20060102.030405\"}}"
+    "version": "{{isotime \"20060102.030405\"}}",
+    "version_simple": "{{isotime \"20060102\"}}"
   },
   "builders": [
     {
@@ -230,7 +231,7 @@
         "box_tag": "{{user `atlas_box_tag`}}",
         "access_token": "{{user `atlas_token`}}",
         "no_release": "false",
-        "version": "{{user `version`}}"
+        "version": "{{user `version_simple`}}"
       }
     ]
   ]
